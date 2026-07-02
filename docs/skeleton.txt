@@ -1,1 +1,13 @@
-
+docs/
+├── index.html          (Main setup)
+├── css/
+│   └── style.css       (Visuals)
+├── js/
+│   ├── dashboard.js    (UI interactivity)
+│   ├── dataService.js  (FETCHING LOGIC - FUTURE)
+│   ├── scoringEngine.js(CALCULATION LOGIC)
+│   └── vizEngine.js    (D3.js chart templates)
+├── data/
+│   ├── mock-data.json  (Local testing)
+│   └── notion-structure.md (Notion schema)
+└── README.md
